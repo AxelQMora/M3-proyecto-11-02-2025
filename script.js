@@ -40,6 +40,7 @@ while (index <= frutas.length-1) {
 }
 
 console.log("Número de frutas cítricas (while): ", index2);
+console.log("Número de frutas no cítricas (while): ", frutas.length-index2);
 
 
 //Contador For
@@ -51,3 +52,5 @@ for (let index3 = 0; index3 <= frutas.length-1; index3++) {
 }
 
 console.log("Número de frutas cítricas (for): ", index4);
+console.log("Número de frutas no cítricas (for): ", frutas.length-index4);
+
